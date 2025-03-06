@@ -1,4 +1,4 @@
-rocm-thunk (6.2.4-1revyos1) UNRELEASED; urgency=medium
+rocm-thunk (6.2.4-1revyos1) unstable; urgency=medium
 
   * Initial release.
 

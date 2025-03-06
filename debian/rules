@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+# TODO: Caution for hsakmt lacking
+
 export DH_VERBOSE = 1
 
 ROCM_VERSION=6.2.4
