@@ -28,7 +28,7 @@ REVYOS_ROCM_CMAKE_PARAMS += -DCMAKE_PREFIX_PATH="$(ROCM_PATH);$(ROCM_PATH)/share
 override_dh_auto_configure:
 	cmake $(REVYOS_ROCM_CMAKE_PARAMS) \
 		-DCMAKE_MODULE_PATH="$(TOP_DIR)/cmake_modules" \
-		-DBUILD_SHARED_LIBS=OFF \
+		-DBUILD_SHARED_LIBS=ON \
 		-DENABLE_LDCONFIG=OFF \
 		-G "Unix Makefiles"
 
