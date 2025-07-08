@@ -1,3 +1,9 @@
+rocm-thunk (6.2.4-3) unstable; urgency=medium
+
+  * Rebuild for debug release
+
+ --  <chenxuan@iscas.ac.cn>  Tue, 08 Jul 2025 16:40:19 +0800
+
 rocm-thunk (6.2.4-2) unstable; urgency=medium
 
   * Rebuild for toolchain fix.
